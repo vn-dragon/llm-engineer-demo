@@ -20,6 +20,8 @@ class TrainConfig:
     data_path: str = "./training/data/legal_seed.jsonl"
     max_seq_length: int = 1024
 
+    # test comment
+
     # ── LoRA (Section 3) ────────────────────────────────────────────────────
     lora_r: int = 16                 # rank: 8 (đơn giản) · 16 (balanced) · 32-64 (phức tạp)
     lora_alpha: int = 32             # thường = 2×r → scaling = 2
