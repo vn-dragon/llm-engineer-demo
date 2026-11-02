@@ -68,7 +68,7 @@ def push_all(
     results: list[dict] = []
 
     # test CI/CD
-    tests = 1
+    # tests = 1
 
     for p in sorted(prompts, key=lambda x: (x.name, x.version)):
         # Chỉ version mới nhất giữ alias; version cũ push lên làm commit lịch sử.
